@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/abisop-nvme/drone/simulations/ros2_ws/src/surgical_drone/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+LocalPlanner	src/motion_planner.hpp	/^class LocalPlanner{}/;"	c
+MotionPlanner	src/motion_planner.hpp	/^class MotionPlanner{};$/;"	c
+VisionProcessingBase	src/vision_processing_base.cpp	/^VisionProcessingBase::VisionProcessingBase(rclcpp::Node & node,$/;"	f	class:VisionProcessingBase
+VisionProcessingBase	src/vision_processing_base.hpp	/^class VisionProcessingBase$/;"	c
+VisualFollowMeMode	src/visual_follow_me.cpp	/^  explicit VisualFollowMeMode(rclcpp::Node& node)$/;"	f	class:VisualFollowMeMode	file:
+VisualFollowMeMode	src/visual_follow_me.cpp	/^class VisualFollowMeMode : public px4_ros2::ModeBase$/;"	c	file:
+VisualFollowMeNode	src/visual_follow_me.cpp	/^using VisualFollowMeNode = px4_ros2::NodeWithMode<VisualFollowMeMode>;$/;"	t	typeref:typename:px4_ros2::NodeWithMode<VisualFollowMeMode>	file:
+_goto_setpoint	src/visual_follow_me.cpp	/^    std::shared_ptr<px4_ros2::MulticopterGotoSetpointType> _goto_setpoint;$/;"	m	class:VisualFollowMeMode	typeref:typename:std::shared_ptr<px4_ros2::MulticopterGotoSetpointType>	file:
+_object_position_publisher_	src/vision_processing_base.cpp	/^rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr _object_position_publisher_;$/;"	v	typeref:typename:rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr
+_target_position	src/visual_follow_me.cpp	/^    Eigen::Vector3f _target_position{0.f, 0.f, 0.f};$/;"	m	class:VisualFollowMeMode	typeref:typename:Eigen::Vector3f	file:
+_target_set	src/visual_follow_me.cpp	/^    bool _target_set{false};$/;"	m	class:VisualFollowMeMode	typeref:typename:bool	file:
+_vehicle_command_pub	src/visual_follow_me.cpp	/^    rclcpp::Publisher<px4_msgs::msg::VehicleCommand>::SharedPtr _vehicle_command_pub;$/;"	m	class:VisualFollowMeMode	typeref:typename:rclcpp::Publisher<px4_msgs::msg::VehicleCommand>::SharedPtr	file:
+_vehicle_local_position	src/visual_follow_me.cpp	/^    std::shared_ptr<px4_ros2::OdometryLocalPosition> _vehicle_local_position;$/;"	m	class:VisualFollowMeMode	typeref:typename:std::shared_ptr<px4_ros2::OdometryLocalPosition>	file:
+drawing	src/vision_processing_base.cpp	/^bool drawing = false;$/;"	v	typeref:typename:bool
+frame_mutex_	src/vision_processing_base.hpp	/^  mutable std::mutex frame_mutex_;$/;"	m	class:VisionProcessingBase	typeref:typename:std::mutex
+g_key	src/visual_follow_me.cpp	/^int g_key ;$/;"	v	typeref:typename:int
+gimbal_control_callback	src/visual_follow_me.cpp	/^  void gimbal_control_callback(const std_msgs::msg::Int32MultiArray::SharedPtr msg)$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+hasFrame	src/vision_processing_base.cpp	/^bool VisionProcessingBase::hasFrame() const$/;"	f	class:VisionProcessingBase	typeref:typename:bool
+has_frame_	src/vision_processing_base.hpp	/^  bool has_frame_{false};$/;"	m	class:VisionProcessingBase	typeref:typename:bool
+imageCallback	src/vision_processing_base.cpp	/^void VisionProcessingBase::imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr msg)$/;"	f	class:VisionProcessingBase	typeref:typename:void
+image_sub_	src/vision_processing_base.hpp	/^  rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub_;$/;"	m	class:VisionProcessingBase	typeref:typename:rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr
+isTracking	src/visual_follow_me.cpp	/^    bool isTracking = 0;$/;"	m	class:VisualFollowMeMode	typeref:typename:bool	file:
+kModeName	src/visual_follow_me.cpp	/^static const std::string kModeName = "Visual Follow Me";$/;"	v	typeref:typename:const std::string	file:
+key_states_	src/visual_follow_me.cpp	/^std::map<uint16_t, bool> key_states_;$/;"	v	typeref:typename:std::map<uint16_t,bool>
+keydown_sub_	src/visual_follow_me.cpp	/^    rclcpp::Subscription<keyboard_msgs::msg::Key>::SharedPtr keydown_sub_;$/;"	m	class:VisualFollowMeMode	typeref:typename:rclcpp::Subscription<keyboard_msgs::msg::Key>::SharedPtr	file:
+keyup_sub_	src/visual_follow_me.cpp	/^    rclcpp::Subscription<keyboard_msgs::msg::Key>::SharedPtr keyup_sub_;$/;"	m	class:VisualFollowMeMode	typeref:typename:rclcpp::Subscription<keyboard_msgs::msg::Key>::SharedPtr	file:
+last_frame_	src/vision_processing_base.hpp	/^  cv::Mat last_frame_;$/;"	m	class:VisionProcessingBase	typeref:typename:cv::Mat
+latestFrame	src/vision_processing_base.cpp	/^cv::Mat VisionProcessingBase::latestFrame() const$/;"	f	class:VisionProcessingBase	typeref:typename:cv::Mat
+main	src/vision_processing_base.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	src/visual_follow_me.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+manual_commands	src/visual_follow_me.cpp	/^  void manual_commands() {$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+node_	src/vision_processing_base.hpp	/^  rclcpp::Node & node_;$/;"	m	class:VisionProcessingBase	typeref:typename:rclcpp::Node &
+onActivate	src/visual_follow_me.cpp	/^  void onActivate() override { _target_set = false; }$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+onDeactivate	src/visual_follow_me.cpp	/^  void onDeactivate() override {}$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+onMouse	src/vision_processing_base.cpp	/^void onMouse(int event, int x, int y, int flags, void* userdata) {$/;"	f	typeref:typename:void
+pitch_deg	src/visual_follow_me.cpp	/^float pitch_deg = 0;$/;"	v	typeref:typename:float
+request_gimbal_control	src/visual_follow_me.cpp	/^  void request_gimbal_control() {$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+roi	src/vision_processing_base.cpp	/^cv::Rect roi;$/;"	v	typeref:typename:cv::Rect
+subscription_	src/visual_follow_me.cpp	/^    rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr subscription_;$/;"	m	class:VisualFollowMeMode	typeref:typename:rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr	file:
+timer_	src/visual_follow_me.cpp	/^    rclcpp::TimerBase::SharedPtr timer_;$/;"	m	class:VisualFollowMeMode	typeref:typename:rclcpp::TimerBase::SharedPtr	file:
+tracker	src/vision_processing_base.cpp	/^cv::Ptr<cv::Tracker> tracker;$/;"	v	typeref:typename:cv::Ptr<cv::Tracker>
+trackerInitialized	src/vision_processing_base.cpp	/^bool trackerInitialized = false;$/;"	v	typeref:typename:bool
+trackingActive	src/vision_processing_base.cpp	/^bool trackingActive = false;$/;"	v	typeref:typename:bool
+updateSetpoint	src/visual_follow_me.cpp	/^  void updateSetpoint(float dt_s) override$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+update_key_down	src/visual_follow_me.cpp	/^  void update_key_down(const keyboard_msgs::msg::Key::SharedPtr msg) {$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+update_key_up	src/visual_follow_me.cpp	/^  void update_key_up(const keyboard_msgs::msg::Key::SharedPtr msg) {$/;"	f	class:VisualFollowMeMode	typeref:typename:void	file:
+vision_tracking	src/vision_processing_base.cpp	/^std::vector<int> vision_tracking(cv::Mat croppedFrame) {$/;"	f	typeref:typename:std::vector<int>
+writer_	src/vision_processing_base.hpp	/^  cv::VideoWriter writer_;$/;"	m	class:VisionProcessingBase	typeref:typename:cv::VideoWriter
+yaw_deg	src/visual_follow_me.cpp	/^float yaw_deg = 0;$/;"	v	typeref:typename:float
