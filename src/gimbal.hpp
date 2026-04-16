@@ -1,1 +1,0 @@
-#include <px4_msgs/msg/GimbalControls.msg>
